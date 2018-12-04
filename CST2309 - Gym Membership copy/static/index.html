@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- Oleg Ligay -->
+<!-- 06.10.2018 -->
+<html>
+<head>
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Faster+One|Merriweather|Monoton|Vast+Shadow" rel="stylesheet">
+	<!-- Main CSS  -->
+	<link rel="stylesheet" href="assets/css/main.css">
+	<title> Oleg's Gym | Home</title>
+</head>
+<body onload="startup();">
+	
+		<header>
+			<h1>Oleg's Gym</h1>
+			<h2>Get FIT the right way!</h2>
+			<div class="nav">
+				<ul>
+					<li><a href="index.html" class="active">Home</a></li>
+					<li><a href="process.html">Process</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</header>	
+	
+	
+	<div class="body" >
+		<section id="gallery"> <!-- gallery -->
+			<div align="center">
+				<img src="assets/media/images/gallery1.jpg" name="banner" width="50%">
+			</div>
+		</section>
+
+		<section id="summary"> <!-- Summary -->
+			<h3>Summary</h3>
+			<p> <strong>Oleg's Gym</strong> has a mission to assist anybody intrested to reach the fitness goals. We combine the latest technologies to properly assess your level and give you all the attention you need personally.</p>
+			<p>Established in 2018, we are new and excited team of professionals. We gathered all the knowledgde and expertise from any corner of fitness world. Therefore, we are excited to give you all the information we have.</p>
+		</section>
+
+		<section id="index-process"> <!-- Process -->
+			<h3>Our Process</h3>
+			<ul>
+				<li class="circle"><img src="assets/media/images/assessment.jpg" width="150" height="150"></li>
+				<li class="text">
+					<h4>Assess</h4>
+					<p>It is important to know your strengths and weaknesses. Our team help you to measure your body, soul and mind and give you results without any bullshit.</p>
+				</li>
+			</ul>
+
+			<ul>
+				<li class="circle"><img src="assets/media/images/plan.jpg" width="150" height="150"></li>
+				<li class="text">
+					<h4>Plan</h4>
+					<p>After careful assesment of your body, we set goals and timetables to achieve those goals. We, also, encourage everyone to take an advantage of our diet and meal preps.</p>
+				</li>
+			</ul>
+
+			<ul>
+				<li class="circle"><img src="assets/media/images/execute.jpg" width="150" height="150"></li>
+				<li class="text">
+					<h4>Execute</h4>
+					<p>After all set and done. It is time to put your sweat and tears and shed all those layers of fat and be ready for beach season. Without execution is throwing away your money.</p>
+				</li>
+			</ul>
+
+			<ul>
+				<li class="circle"><img src="assets/media/images/monitor.jpg" width="150" height="150"></li>
+				<li class="text">
+					<h4>Monitor</h4>
+					<p>Begining is one of the steps. We carefully monitor your progress, and make adjustments based on your physical and emotional changes.</p>
+				</li>
+			</ul> 
+			<p>For more informtaion proceed <a id="moreInfo" href="process.html">&rarr;</a></p>
+		</section>
+
+		
+
+		<section id="newsletter"> <!-- newsletter -->
+			<div id="subscription-letter">
+				<form action="" name="subscription" onsubmit="return false;">
+					<p>
+						First Name:
+						<input type="text" name="firstName" length="25" placeholder="First Name">
+						Last Name:
+						<input type="text" name="lastName" length="25" placeholder="Last Name">
+						Email:
+						<input type="text" name="email" length="25" placeholder="Email address">
+						<input type="submit" name="submit" id="subButton" value="Subscribe" onclick="doSubscribe();">
+					</p>
+				</form>
+			</div>
+		</section>
+	</div> <!-- body -->
+	
+	<footer>
+		<address> 300 Jay Street Brooklyn NY 12001</address>
+		<p>Ask us anything: <a id="conButton" href="mailto:mygym@gym.com"> Contact &rarr;</a> </p>
+
+		<p> <a href="#"> Top &uarr; </a></p>
+		
+		<p> Oleg's Gym &copy; 2018</p>
+	</footer>
+
+	<!-- JS files -->
+	<script src="assets/js/main.js"></script>
+</body>
+</html>

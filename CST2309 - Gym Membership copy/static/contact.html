@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!-- Oleg Ligay -->
+<!-- 06.10.2018 -->
+<html>
+<head>
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Faster+One|Merriweather|Monoton|Vast+Shadow" rel="stylesheet">
+	<!-- Main CSS  -->
+	<link rel="stylesheet" href="assets/css/main.css">
+	<title> Oleg's Gym | Home</title>
+</head>
+<body>
+	<header>
+		<h1>Oleg's Gym</h1>
+		<h2>Get FIT the right way!</h2>
+		<div class="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="process.html">Process</a></li>
+				<li><a href="contact.html" class="active">Contact</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<section id="survey">
+		<form name="survey" onsubmit="return false;">
+			<h3>Sign Up</h3>
+			<p>Give us a chance to know you before you step into the gym. All you have to do is to fill out this questionnare and we will have some knowledge and save tons of time on assessing and planning, which can be spent working out! Hell YEAH!</p>
+			
+
+			<ul style="list-style: none;">
+				<li>
+					<h4>Personnal Information</h4>
+					<p>
+						First Name: <input type="text" name="firstName">
+						Middle Name: <input type="text" name="middleName">
+						Last Name: <input type="text" name="lastName">
+					</p>
+					<p>
+						<h4>Gender</h4>
+						
+						Male: <input type="radio" name="gender">
+						Female: <input type="radio" name="gender">
+					</p>
+				</li>
+
+				<li>
+					<h4>Contact Information</h4>
+					<p>
+						Email: <input type="text" name="email">
+						Phone: <input type="text" name="phone">
+					</p>
+				</li>
+				
+				<li id="adress">
+					<h4>Address</h4>
+					<p>
+						Street: <input type="text" name="street">
+						<br>
+						Street2: <input type="text" name="street2">
+						<br>
+						City: <input type="text" name="city">
+						
+						State: <input type="text" name="state">
+						<br>
+						Zipcode: <input type="text" name="zipcode">
+					</p>
+				</li>
+
+				<li>
+					<h4> Goals and wishes</h4>
+					<table style="width: 90%">
+						<tr>
+							<th>Lose Weight</th>
+							<td><input type="checkbox" name="goal"></td>
+
+							<th>Gain Muscles</th>
+							<td><input type="checkbox" name="goal"></td>
+							
+							<th>Boost Metabolism</th>
+							<td><input type="checkbox" name="goal"></td>
+
+							<th>Learn Specific Exercise</th>
+							<td><input type="checkbox" name="goal"></td>
+
+							<th>Lose Fat</th>
+							<td><input type="checkbox" name="goal"></td>
+						</tr>
+						<tr>
+							<th>Get Ripped</th>
+							<td><input type="checkbox" name="goal"></td>
+
+							<th>Improve Mobility</th>
+							<td><input type="checkbox" name="goal"></td>
+
+							<th>Powerlifting</th>
+							<td><input type="checkbox" name="goal"></td>
+
+							<th>Crossfit</th>
+							<td><input type="checkbox" name="goal"></td>
+
+							<th>Bodybuilding</th>
+							<td><input type="checkbox" name="goal"></td>							
+						</tr>
+					</table>
+				</li>
+
+				<li id="memtype">
+					<h4>Membership Type</h4>
+					<table>
+						<tr>
+							<td><input type="radio" name="membership"></td>
+							<th>Basic Membership</th>
+							<td>It covers an access to the gym floor, shower, lockers and all the equipment. If you would love to take classes, choose an opportunity in Grizzly and Beast Mode memberships.
+							</td>
+							<td class="price">$20.00 per month</td>
+						</tr>
+
+						<tr>
+							<td><input type="radio" name="membership"></td>
+							<th>Bear Cub Membership</th>
+							<td>It is a special offer for young kids and teenagers to learn in a safe and motivating environment what it means to be an athlete. Unlimited amount of classes, adult supervision, everything we have is included in a package in order to raise healthy and strong generation.
+							</td>
+							<td class="price">$50.00 per month</td>
+						</tr>
+
+						<tr>
+							<td><input type="radio" name="membership"></td>
+							<th>Mama Bear Membership</th>
+							<td>This is a special offer for awesome mothers everywhere. It is time to built muscle, become stronger or whatever you need to become Amazonian warriors and dominate the world. This package is all-inclusive.
+							</td>
+							<td class="price">$50.00 per month</td>
+						</tr>
+
+						<tr>
+							<td><input type="radio" name="membership"></td>
+							<th>Grizzly Membership</th>
+							<td>Being Grizzly means strength, speed, agility and domination of animal world. We focus on strength and combat skills for anyone who wants to join. This is a special pacakge for future warriors. Expect bootcamp like training. This package is NOT all-inclusive. Look at Beast Mode tier to get all-inclusive services
+							</td>
+							<td class="price">$150.00 per month</td>
+						</tr>
+
+						<tr>
+							<td><input type="radio" name="membership"></td>
+							<th>Beast Mode Membership</th>
+							<td>Update from Grizzly Mode, with nurture of a beast, adding the classes to teach people the different aspects of a body in order to improve individual's results! This package all-inclusive with an accesss to amnesties, classes, and trainers. 
+							</td>
+							<td class="price">$200.00 per month</td>
+						</tr>
+					</table>
+				</li>
+
+				<li>
+					<h4>Payment</h4>
+					<table>
+						<td width="70%">
+						<p>
+							Name on a Card: <input type="text" name="nameOnCard"></p>
+							<p>Card Number: <input type="text" name="cardNum"></p>
+							<p>Expiration Date: <input type="text" name="expiration"></p>
+						</p>
+					</td>
+					<td width="30%">
+						<img src="assets/media/images/visa-mastercard-logo.jpg" alt="Visa logo" width="100%" id="visa">
+					</td>
+					</table>
+					
+					
+				</li>
+			</ul>
+		</form>
+
+		<input type="submit" name="submit" value="Submit" onclick="doSubmit();" class="button">
+		<input type="reset" name="reset" value="Reset" onclick="doReset();" class="button">
+	</section>
+	
+	
+
+
+	<footer>
+		<p>Ask us anything: <a href="mailto:mygym@gym.com" id="conButton"> Contact &rarr;</a> </p>
+
+		<p> <a href="#"> Top &uarr; </a></p>
+		
+		<p> Oleg's Gym &copy; 2018</p>
+	</footer>
+
+	<!-- JS files -->
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
